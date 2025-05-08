@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { UsersRound } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,7 +19,9 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           {/* Logo Section */}
           <Link to="/" className="flex items-center gap-2 mb-6 hover:opacity-90 transition-opacity">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 via-indigo-500 to-purple-500 flex items-center justify-center text-white font-extrabold text-lg">G</div>
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 via-indigo-500 to-purple-500 flex items-center justify-center text-white">
+              <UsersRound className="w-6 h-6" />
+            </div>
             <span className="text-xl font-bold tracking-tight">GoPersonas</span>
           </Link>
           

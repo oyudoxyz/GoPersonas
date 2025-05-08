@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import { UsersRound } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,9 @@ const Navbar = () => {
       
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 flex items-center justify-center text-white font-bold">G</div>
+          <div className="w-8 h-8 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 flex items-center justify-center text-white">
+            <UsersRound className="w-5 h-5" />
+          </div>
           <span className="text-xl font-bold">GoPersonas</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
