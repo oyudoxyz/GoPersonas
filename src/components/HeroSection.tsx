@@ -35,7 +35,7 @@ const HeroSection = () => {
             
             {/* Card Content */}
             <img 
-              src="/lovable-uploads/Persona1CasualReaderClara.svg" 
+              src="/images/Persona1CasualReaderClara.svg" 
               alt="Persona Example" 
               className="w-full rounded-2xl"
             />
