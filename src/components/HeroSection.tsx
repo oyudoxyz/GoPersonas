@@ -11,10 +11,10 @@ const HeroSection = () => {
       
       <div className="animate-fade-in max-w-4xl relative z-10">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          Create <span className="gradient-text">AI-Powered</span> User Personas in Seconds
+          Create Custom <span className="gradient-text">User Personas</span> Instantly with AI
         </h1>
         <p className="text-xl md:text-2xl text-foreground/80 mb-10 max-w-2xl mx-auto">
-          Transform your product development with advanced AI personas that bring your users to life using microsoft/phi-4-reasoning-plus technology.
+          Transform your product development with advanced AI personas that bring your users to life.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-500 hover:opacity-90 transition-opacity text-lg py-6 px-8">
