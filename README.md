@@ -2,7 +2,7 @@
 
 GoPersonas is an AI-powered user persona generator that helps product teams create detailed, realistic user personas in seconds. Built with React, TypeScript, and Vite, it leverages advanced AI models to generate comprehensive user profiles that bring your target audience to life.
 
-![GoPersonas Screenshot](public/lovable-uploads/Persona1CasualReaderClara.svg)
+![GoPersonas Screenshot](public/images/Persona1CasualReaderClara.svg)
 
 ## Features
 
@@ -37,7 +37,7 @@ GoPersonas is an AI-powered user persona generator that helps product teams crea
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/GoPersonas.git
+git clone https://github.com/oyudoxyz/GoPersonas.git
 cd GoPersonas
 ```
 
@@ -60,7 +60,7 @@ npm run dev
 yarn dev
 ```
 
-The application will be available at `http://localhost:8080`.
+The application will be available at `https://gopersonas.vercel.app/`.
 
 ## Usage
 
