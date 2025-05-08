@@ -1,0 +1,163 @@
+[
+  {
+    "path": "/images/chef-marcus.png",
+    "gender": "Male",
+    "ageGroup": "Older",
+    "occupations": ["chef", "restaurant owner", "business owner", "food service", "culinary professional"],
+    "traits": ["serious", "disciplined", "detail-oriented", "professional", "experienced", "resilient"],
+    "style": "Professional"
+  },
+  {
+    "path": "/images/mrs-thompson.png",
+    "gender": "Female",
+    "ageGroup": "Elderly",
+    "occupations": ["teacher", "retired teacher", "educator", "mentor", "senior"],
+    "traits": ["gentle", "patient", "caring", "nurturing", "wise", "experienced", "curious"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/rosa-mendez.png",
+    "gender": "Female",
+    "ageGroup": "Middle-aged",
+    "occupations": ["community leader", "organizer", "activist", "cultural worker", "advocate"],
+    "traits": ["warm", "empathetic", "organized", "inspirational", "traditional", "community-oriented"],
+    "style": "Traditional"
+  },
+  {
+    "path": "/images/carmen-rivera.png",
+    "gender": "Female",
+    "ageGroup": "Middle-aged",
+    "occupations": ["nurse", "healthcare worker", "medical professional", "caregiver"],
+    "traits": ["compassionate", "efficient", "adaptable", "caring", "professional", "attentive"],
+    "style": "Professional"
+  },
+  {
+    "path": "/images/david-chen.png",
+    "gender": "Male",
+    "ageGroup": "Middle-aged",
+    "occupations": ["executive", "tech executive", "manager", "director", "business professional"],
+    "traits": ["confident", "analytical", "strategic", "decisive", "visionary", "professional"],
+    "style": "Business"
+  },
+  {
+    "path": "/images/arjun-patel.png",
+    "gender": "Male",
+    "ageGroup": "Young",
+    "occupations": ["software developer", "programmer", "engineer", "tech worker", "coder"],
+    "traits": ["focused", "analytical", "technical", "creative", "collaborative", "innovative"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/samir-alfarsi.png",
+    "gender": "Male",
+    "ageGroup": "Young",
+    "occupations": ["intern", "marketing intern", "student", "recent graduate", "assistant"],
+    "traits": ["energetic", "enthusiastic", "curious", "sociable", "ambitious", "eager"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/amina-johnson.png",
+    "gender": "Female",
+    "ageGroup": "Young",
+    "occupations": ["student", "intern", "part-time worker", "volunteer", "graduate"],
+    "traits": ["friendly", "motivated", "adaptable", "social", "creative", "enthusiastic"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/nonbinary-graphic-designer.png",
+    "gender": "Non-binary",
+    "ageGroup": "Middle-aged",
+    "occupations": ["graphic designer", "artist", "creative professional", "designer", "digital artist"],
+    "traits": ["creative", "innovative", "expressive", "detail-oriented", "artistic", "visionary"],
+    "style": "Creative"
+  },
+  {
+    "path": "/images/east-african-grandmother.png",
+    "gender": "Female",
+    "ageGroup": "Elderly",
+    "occupations": ["grandmother", "family caretaker", "elder", "community member", "mentor"],
+    "traits": ["wise", "kind", "nurturing", "patient", "traditional", "experienced"],
+    "style": "Traditional"
+  },
+  {
+    "path": "/images/se-asian-influencer.png",
+    "gender": "Female",
+    "ageGroup": "Young",
+    "occupations": ["social media influencer", "content creator", "digital marketer", "entrepreneur", "brand ambassador"],
+    "traits": ["cheerful", "outgoing", "trendy", "tech-savvy", "creative", "communicative"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/me-business-owner.png",
+    "gender": "Male",
+    "ageGroup": "Middle-aged",
+    "occupations": ["small business owner", "entrepreneur", "manager", "merchant", "retailer"],
+    "traits": ["thoughtful", "determined", "practical", "hard-working", "responsible", "strategic"],
+    "style": "Business"
+  },
+  {
+    "path": "/images/black-hr-manager.png",
+    "gender": "Female",
+    "ageGroup": "Middle-aged",
+    "occupations": ["HR manager", "business professional", "corporate worker", "administrator", "recruiter"],
+    "traits": ["confident", "organized", "diplomatic", "professional", "assertive", "empathetic"],
+    "style": "Business"
+  },
+  {
+    "path": "/images/enviro-scientist.png",
+    "gender": "Male",
+    "ageGroup": "Young",
+    "occupations": ["environmental scientist", "researcher", "field worker", "conservationist", "analyst"],
+    "traits": ["outdoorsy", "analytical", "passionate", "dedicated", "detail-oriented", "observant"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/sa-elementary-teacher.png",
+    "gender": "Female",
+    "ageGroup": "Middle-aged",
+    "occupations": ["elementary school teacher", "educator", "instructor", "mentor", "childcare professional"],
+    "traits": ["gentle", "patient", "nurturing", "creative", "attentive", "empathetic"],
+    "style": "Traditional"
+  },
+  {
+    "path": "/images/latino-teen-student.png",
+    "gender": "Male",
+    "ageGroup": "Young",
+    "occupations": ["high school student", "athlete", "part-time worker", "volunteer", "team member"],
+    "traits": ["athletic", "energetic", "social", "ambitious", "enthusiastic", "competitive"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/ea-nonbinary-artist.png",
+    "gender": "Non-binary",
+    "ageGroup": "Young",
+    "occupations": ["urban artist", "street artist", "creative professional", "designer", "performer"],
+    "traits": ["creative", "expressive", "trendy", "independent", "bold", "innovative"],
+    "style": "Creative"
+  },
+  {
+    "path": "/images/indigenous-park-ranger.png",
+    "gender": "Male",
+    "ageGroup": "Middle-aged",
+    "occupations": ["park ranger", "environmental worker", "guide", "conservationist", "educator"],
+    "traits": ["calm", "knowledgeable", "patient", "observant", "nature-loving", "responsible"],
+    "style": "Professional"
+  },
+  {
+    "path": "/images/white-college-freshman.png",
+    "gender": "Female",
+    "ageGroup": "Young",
+    "occupations": ["college freshman", "student", "part-time worker", "intern", "volunteer"],
+    "traits": ["energetic", "curious", "adaptable", "friendly", "optimistic", "studious"],
+    "style": "Casual"
+  },
+  {
+    "path": "/images/black-retired-judge.png",
+    "gender": "Male",
+    "ageGroup": "Elderly",
+    "occupations": ["retired judge", "legal professional", "mentor", "advisor", "community leader"],
+    "traits": ["dignified", "wise", "principled", "analytical", "respected", "articulate"],
+    "style": "Formal"
+  }
+] 
+
