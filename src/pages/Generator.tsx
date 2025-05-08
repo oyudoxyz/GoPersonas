@@ -150,7 +150,7 @@ const Generator = () => {
       const newIndex = direction === 'prev' 
         ? (currentPersonaIndex === 0 ? personas.length - 1 : currentPersonaIndex - 1)
         : (currentPersonaIndex === personas.length - 1 ? 0 : currentPersonaIndex + 1);
-      setEditedPersona({...personas[newIndex]});
+      setEditedPersona({...personas[newIndex]}); // This might need adjustment if personas state isn't updated yet
     }
   };
 
@@ -264,9 +264,9 @@ const Generator = () => {
             </Button>
           </div>
         </div>
-        
+
         {isGenerating && <LoadingState />}
-        
+
         {!isGenerating && personas.length > 0 && (
           <div className="mb-16 animate-scale-in">
             <h2 className="text-2xl font-bold mb-8 text-center">
@@ -283,7 +283,7 @@ const Generator = () => {
               <Button 
                 variant="outline" 
                 size="icon" 
-                className="mr-4 rounded-full" 
+                className="mr-4 rounded-full hidden sm:inline-flex"
                 onClick={() => handleNavigatePersona('prev')}
               >
                 <ArrowLeft className="h-4 w-4" />
@@ -304,7 +304,7 @@ const Generator = () => {
               <Button 
                 variant="outline" 
                 size="icon" 
-                className="ml-4 rounded-full" 
+                className="ml-4 rounded-full hidden sm:inline-flex"
                 onClick={() => handleNavigatePersona('next')}
               >
                 <ArrowRight className="h-4 w-4" />
@@ -318,9 +318,9 @@ const Generator = () => {
                 <div className="card-shadow overflow-hidden rounded-xl border-none bg-white">
                   <div className="p-6">
                     {/* Header with name, demographic, and traits */}
-                    <div className="flex items-start gap-4 border-b border-gray-100 pb-5">
+                    <div className="flex flex-col sm:flex-row sm:items-start gap-4 border-b border-gray-100 pb-5">
                       <div 
-                        className={`w-24 h-24 rounded-lg overflow-hidden bg-purple-100 flex-shrink-0 ${isEditing ? 'cursor-pointer relative group' : ''}`}
+                        className={`w-24 h-24 rounded-lg overflow-hidden bg-purple-100 flex-shrink-0 ${isEditing ? 'cursor-pointer relative group' : ''} mb-4 sm:mb-0 self-start`}
                         onClick={isEditing ? handleImageUpload : undefined}
                       >
                         {isEditing && (
@@ -343,7 +343,7 @@ const Generator = () => {
                           </div>
                         )}
                       </div>
-                      <div className="flex-1">
+                      <div className="flex-1 sm:text-left">
                         <h3 
                           className={`text-xl font-bold mb-1 ${isEditing ? 'border-b border-dashed border-gray-300 focus:outline-none' : ''}`}
                           contentEditable={isEditing}
@@ -362,7 +362,7 @@ const Generator = () => {
                         </p>
                         
                         {/* Traits moved here */}
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex flex-wrap gap-2 sm:justify-start">
                           {(isEditing ? editedPersona?.traits : currentPersona.traits).map((trait, index) => (
                             <span 
                               key={index} 

@@ -4,11 +4,13 @@ import { Download, Loader2 } from 'lucide-react';
 import { PersonaType, PersonaTrait } from './PersonaCard';
 import html2canvas from 'html2canvas';
 import { useToast } from '@/hooks/use-toast';
+import { cn } from '@/lib/utils';
 
 interface DownloadPersonaProps {
   persona: PersonaType;
   index?: number;
   productDescription?: string;
+  className?: string;
 }
 
 const getTraitBgColor = (color: string) => {
@@ -257,7 +259,7 @@ const renderPersonaCardToCanvas = async (persona: PersonaType, productDescriptio
   return canvas;
 };
 
-const DownloadPersona: React.FC<DownloadPersonaProps> = ({ persona, index = 1, productDescription }) => {
+const DownloadPersona: React.FC<DownloadPersonaProps> = ({ persona, index = 1, productDescription, className }) => {
   const [isDownloading, setIsDownloading] = useState(false);
   const { toast } = useToast();
 
@@ -325,7 +327,7 @@ const DownloadPersona: React.FC<DownloadPersonaProps> = ({ persona, index = 1, p
     <Button 
       onClick={handleDownload} 
       variant="outline" 
-      className="absolute top-4 right-20"
+      className={cn("absolute top-4 right-20", className)}
       size="icon"
       disabled={isDownloading}
     >
